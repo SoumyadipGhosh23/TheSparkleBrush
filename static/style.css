@@ -1,0 +1,132 @@
+#title {
+  background-color: #ff6699;
+  padding: 2% 2%;
+}
+
+.nav-item {
+  font-family: 'Courgette', cursive;
+  font-size: 0.8 em;
+  color: bisque;
+}
+
+h1 {
+  font-family: 'Courgette', cursive;
+  color: #fff;
+}
+
+.title-content {
+  padding: 10% 10% 2% 10%;
+}
+
+.title-img {
+  width: 80%;
+  border-radius: 90%;
+}
+
+#service {
+  font-family: 'Merienda', cursive;
+  text-align: center;
+  padding: 2% 7%;
+}
+
+#worksdone {
+  font-family: 'Merienda', cursive;
+  text-align: center;
+  padding: 2% 0% 2%;
+}
+
+.service-img {
+  width: 40%;
+  border-radius: 100%;
+  padding-bottom: 1%;
+}
+
+#port-folio {
+  font-family: 'Merienda', cursive;
+  padding: 2% 0%;
+  background-color: #ff6699;
+}
+
+.quotes {
+  padding: 5% 10% 2%;
+  text-align: center;
+  line-height: 40px;
+}
+
+.portfolio-img {
+  width: 60%;
+  padding-top: 4%;
+}
+
+.instaimg {
+  width: 50%;
+  height: 30%;
+  padding: 5%;
+}
+
+#footer {
+  text-align: center;
+  background-color: pink;
+  font-family: 'Kaisei Tokumin', serif;
+  padding: 1%;
+}
+
+#contact {
+  text-align: center;
+  background-color: #ff6699;
+  padding: 2% 2%;
+  font-family: 'Merienda', cursive;
+}
+
+.fab {
+  color: #fff;
+}
+
+.contact-icon {
+  color: #fff;
+  margin: 10px 20px;
+}
+
+p {
+  font-size: 1.2em;
+}
+
+.contactmsg {
+  color: #fff;
+  line-height: 40px;
+  padding: 3%;
+}
+
+.myButton {
+  color: #000;
+}
+
+.btn-outline-primary {
+  border-color: #000 !important;
+}
+
+@media (max-width: 975px) {
+  #title {
+    text-align: center;
+  }
+  .title-img {
+    position: static;
+    padding-top: 20px;
+  }
+  #footer {
+    font-size: 0.7em;
+  }
+  #contact {
+    font-size: 1em;
+  }
+}
+
+@media (min-width: 940px) {
+  #port-folio {
+    padding: 0.5% 0%;
+  }
+  .portfolio-img {
+    width: 30%;
+  }
+}
+/*# sourceMappingURL=style.css.map */
